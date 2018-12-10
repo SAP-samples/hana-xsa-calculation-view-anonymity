@@ -13,8 +13,10 @@ This repository can be cloned into SAP Web IDE for SAP HANA on premise or SAP We
 
 - Minimum version of SAP HANA is 2.0 SPS03.
 - SAP HANA with the Extended Application Services, advanced model (XS Advanced). Get a free instance with [the XS Advanced options for SAP HANA, express edition](https://developers.sap.com/topics/sap-hana-express.html).  SAP HANA, express edition can be used for free up to 32 GB of RAM even for productive use.
-- The script server must be enabled in the tenant database. More information (in this tutorial)[https://developers.sap.com/tutorials/hxe-enable-script-server.html] 
-- The space in which you will deploy the repository must be mapped to the tenant database. More information (in this tutorial)https://www.sap.com/developer/tutorials/xsa-tenant-db-space.html]
+- The script server must be enabled in the tenant database. 
+You can find more information in [this step by step tutorial](https://developers.sap.com/tutorials/hxe-enable-script-server.html)
+- The space in which you will deploy the repository must be mapped to the tenant database. 
+More information [in this tutorial](https://www.sap.com/developer/tutorials/xsa-tenant-db-space.html)
 
 **For SAP Cloud Platform**
 
@@ -47,4 +49,4 @@ Search for your error message in [answers.sap.com](https://answers.sap.com/index
 
 ## License
 Copyright (c) 2018 SAP SE or an SAP affiliate company. All rights reserved.
-This file is licensed under the SAP Sample Code License except as noted otherwise in the [LICENSE file](https://github.com/Lsubatin/XSA_CALCULATION_VIEWS/blob/master/LICENSE).
+This file is licensed under the SAP Sample Code License except as noted otherwise in the [LICENSE file](https://github.com/SAP/hana-xsa-calculation-view-anonymity/blob/master/LICENSE).
