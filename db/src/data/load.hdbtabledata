@@ -1,0 +1,21 @@
+{
+"format_version": 1,
+"imports": [{
+  "target_table": "JOBS",
+  "source_data": {
+    "data_type": "CSV",
+    "file_name": "data.csv",
+    "has_header": true,
+    "dialect": "HANA",
+    "type_config": {
+      "delimiter": "\t"
+    }
+  },
+  "import_settings": {
+    "import_columns": ["ORIGIN_COUNTRY", "CURRENT_ROLE", "JOB_LIKES", "AGE", "CURRENT_TENURE"]
+  },
+  "column_mappings": {
+    "ORIGIN_COUNTRY": 1, "CURRENT_ROLE" : 2, "JOB_LIKES" : 3, "AGE" : 4, "CURRENT_TENURE" : 5
+  }
+}]
+}
