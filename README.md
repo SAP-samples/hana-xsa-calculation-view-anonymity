@@ -20,7 +20,7 @@ More information [in this tutorial](https://www.sap.com/developer/tutorials/xsa-
 
 **For SAP Cloud Platform**
 
-- An account in SAP Cloud Platform with subaccounts in Neo and Cloud Foundry. 
+- An productive account in SAP Cloud Platform with subaccounts in Neo and Cloud Foundry. **HDI containers included in the trial account will not work**
 - SAP Web IDE Full Stack enabled
 - An instance of the SAP HANA Service in Cloud Foundry with the script server enabled. The version of the database must be 2.0 SPS03 or higher. 
 
@@ -40,12 +40,15 @@ More information [in this tutorial](https://www.sap.com/developer/tutorials/xsa-
 
 
 ## How to obtain support
+
 Search for your error message in [answers.sap.com](https://answers.sap.com/index.html). If you are the first one with the problem, create a new question. Remember to include the following details so we can provide support:
 - What you are doing
 - The error messages
 - Screenshots of the problem
 - The environment you are using (Cloud or on-premise? Version?)
 - Steps you have tried to solve the problem that failed
+
+If you believe you have found a bug in the current repository, please create a bug report instead.
 
 ## License
 Copyright (c) 2018 SAP SE or an SAP affiliate company. All rights reserved.
