@@ -1,4 +1,5 @@
-# Calculation View with K-anonymity in SAP HANA, XS Advanced.
+# Calculation View with K-anonymity in SAP HANA, XS Advanced
+
 ## Description
 This sample repository is the output of the following tutorial demonstrating how to create a calculation view with K-anonymity: https://developers.sap.com/tutorials/xsa-calculation-views-anonymization-k.html 
 
@@ -24,7 +25,6 @@ More information [in this tutorial](https://www.sap.com/developer/tutorials/xsa-
 - SAP Web IDE Full Stack enabled
 - An instance of the SAP HANA Service in Cloud Foundry with the script server enabled. The version of the database must be 2.0 SPS03 or higher. 
 
-
 ## Download and Installation
 1.  In SAP Web IDE, right-click on the workspace and choose `Git - > Clone Repository`. 
 2.  Enter the URL for the current repository. Wait until a message on the top right corner shows the clone has been successful.
@@ -36,8 +36,6 @@ More information [in this tutorial](https://www.sap.com/developer/tutorials/xsa-
 **Problem:** Data preview from Web IDE fails with an error message.
 
 **Solution**: Choose option `Open HDI container` and choose `K_ANONYMITY` under the column views.
-
-
 
 ## How to obtain support
 
@@ -51,5 +49,4 @@ Search for your error message in [answers.sap.com](https://answers.sap.com/index
 If you believe you have found a bug in the current repository, please create a bug report instead.
 
 ## License
-Copyright (c) 2018 SAP SE or an SAP affiliate company. All rights reserved.
-This file is licensed under the SAP Sample Code License except as noted otherwise in the [LICENSE file](https://github.com/SAP/hana-xsa-calculation-view-anonymity/blob/master/LICENSE).
+Copyright (c) 2018 SAP SE or an SAP affiliate company. All rights reserved. This file is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE file](LICENSE).
