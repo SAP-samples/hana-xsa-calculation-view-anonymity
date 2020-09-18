@@ -1,5 +1,7 @@
 # Calculation View with K-anonymity in SAP HANA, XS Advanced
 
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/hana-xsa-calculation-view-anonymity)](https://api.reuse.software/info/github.com/SAP-samples/hana-xsa-calculation-view-anonymity)
+
 ## Description
 This sample repository is the output of the following tutorial demonstrating how to create a calculation view with K-anonymity: https://developers.sap.com/tutorials/xsa-calculation-views-anonymization-k.html 
 
