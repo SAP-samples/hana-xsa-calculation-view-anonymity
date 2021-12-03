@@ -10,7 +10,7 @@ The project includes a table, sample data, configuration to load the sample data
 You can find more information about K-anonymity and other methods to implement data privacy and data anonymization in the [SAP Help](https://help.sap.com/viewer/d48b808bcde547eea7f30bb101cb62b6/1.0.0.0/en-US). These features are available as of SAP HANA 2.0 SPS03.
 
 ## Requirements
-This repository can be cloned into SAP Web IDE for SAP HANA on premise or SAP Web IDE Full Stack on SAP Cloud Platform.
+This repository can be cloned into SAP Web IDE for SAP HANA on premise.
 
 **For on-premise**
 
@@ -20,12 +20,6 @@ This repository can be cloned into SAP Web IDE for SAP HANA on premise or SAP We
 You can find more information in [this help document](https://help.sap.com/viewer/6b94445c94ae495c83a19646e7c3fd56/latest/en-US/bea764423908440b9237732a72dde846.html)
 - The space in which you will deploy the repository must be mapped to the tenant database. 
 More information [in this tutorial](https://www.sap.com/developer/tutorials/xsa-tenant-db-space.html)
-
-**For SAP Cloud Platform**
-
-- An productive account in SAP Cloud Platform with subaccounts in Neo and Cloud Foundry. **HDI containers included in the trial account will not work**
-- SAP Web IDE Full Stack enabled
-- An instance of the SAP HANA Service in Cloud Foundry with the script server enabled. The version of the database must be 2.0 SPS03 or higher. 
 
 ## Download and Installation
 1.  In SAP Web IDE, right-click on the workspace and choose `Git - > Clone Repository`. 
